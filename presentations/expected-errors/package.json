@@ -1,0 +1,9 @@
+{
+  "name": "@presentations/expected-errors",
+  "type": "module",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@presentations",
+  "private": true,
+  "dependencies": {
+    "@slidev/cli": "^52.2.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.5.21"
+  }
+}
