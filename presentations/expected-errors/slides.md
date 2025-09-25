@@ -10,6 +10,34 @@ mdc: true
 # Expect your errors
 
 ---
+
+# Hi I'm Jeremy
+
+<br />
+<br />
+
+<div class="flex gap-8">
+  <img src="/images/simple-frontend-logo.png" alt="Simple Frontend logo" class="max-w-[100px]" />
+  <div class="flex flex-col justify-center">
+    <span>I created Simple Frontend to help companies ship better web experiences, faster</span>
+    <a class="!no-underline !border-none text-blue-800" href="https://www.simplefrontend.dev/">www.simplefrontend.dev</a>
+  </div>
+</div>
+
+<br />
+<br />
+<br />
+
+<div class="flex gap-8">
+  <img src="/images/storyblok-logo.png" alt="Storyblok logo" class="max-w-[100px]" />
+  <div class="flex flex-col justify-center">
+    <span>I lead the Product Frontend team at Storyblok</span>
+    <a class="!no-underline !border-none text-blue-800" href="https://www.storyblok.com/">www.storyblok.com</a>
+  </div>
+</div>
+
+
+---
 layout: quote
 --- 
 
@@ -290,3 +318,9 @@ layout: center
 ---
 
 # Happy data fetching!
+
+<br />
+
+Slides available at [expected-errors.vercel.app](https://expected-errors.vercel.app/){class="no-underline !border-none text-blue-800"}
+
+![slides qr code https://expected-errors.vercel.app/](/images/qr-code.svg)
