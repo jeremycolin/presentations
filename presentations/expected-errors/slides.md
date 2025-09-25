@@ -52,7 +52,7 @@ layout: center
 layout: center
 --- 
 
-# I was paged as a was responsible for the edge services
+# I was paged as I was responsible for the edge services
 
 <br />
 
@@ -98,7 +98,7 @@ backgroundSize: contain
 layout: center
 --- 
 
-# Our goal was to rely on Sentry to alert us when new issues sneaked in and resolve them quickly
+# Our goal was to rely on Sentry to alert us when new issues sneaked in to resolve them quickly
 
 <br />
 
@@ -163,11 +163,11 @@ But there are still problems there..
 layout: center
 ---
 
-## 1. All 4xx errors are created equal again and we are blind to some actual errors
+## 1. All 4xx errors are again __created equal__ and we are blind to some actual errors
 
 <br />
 
-## 2. When we get an expected 4xx error, `response.data` is not probably of the shape we expect it to be
+## 2. When we get an expected 4xx error, `response.data` is not of the shape we expect it to be
 
 <br />
 
@@ -232,9 +232,9 @@ async function fetchData(status: number = 200) {
   return response;
 }
 
-await fetchData(404); // will send error to Sentry
+await fetchData(404); // error won't be sent to Sentry
 
-await fetchData(422); // won't send error to Sentry
+await fetchData(422); // error will be sent to Sentry
 ```
 
 <br />
